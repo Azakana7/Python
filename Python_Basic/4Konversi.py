@@ -11,7 +11,6 @@ umurUserSekarang = currentYear - Year
 print(f""" 
 Hai {Name}  
 Umur Kamu Sekarang adalah: {umurUserSekarang} 
-dan kamu lahir pada {Year}
- """)
+dan kamu lahir pada {Year}""")
 
 #Cara mengkonversi itu gampang njir, cuman perlu <Tipe Data>(<Nama Variabel>), misal int(Nilai)
