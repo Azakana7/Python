@@ -8,7 +8,7 @@ while Command != "exit":
     if Command == "exit":
         break #! Memaksa program untuk berhenti
 
-    if Command != "+" and Command != "-" and Command != "*" and Command != "/":
+    if Command != "+" and Command != "-" and Command != "x" and Command != ":":
         print("Perintah tidak dikenali!")
         continue #! Memaksa untuk mengulangi perulangan While    
 
@@ -21,10 +21,10 @@ while Command != "exit":
     elif Command == "-":
         print( a - b)
         break
-    elif Command == "*":
+    elif Command == "x":
         print(a * b)
         break
-    elif Command == "/":
+    elif Command == ":":
         print(a / b)
         break
 
