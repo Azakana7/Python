@@ -15,7 +15,7 @@ print("""
          (. (.     ((&               ,&   &                &,#    #*  %%        
           %#   (     @&           &*&/    @@@.#           ,      .*  .          
             /( / .    (,       %/#  /      %   &,*       %&    @   %#           
-             ** @ #   *//   (##     ,%*   /&(     @..   %@#, .,  ,/             
+             ** @    *//   (##     ,%*   /&(     @..   %@#, .,  ,/             
                @&   , %(@##@       ,  *&(@   .      *& .&,/ * //..              
                  &#/. .%# @               ,           &*//, (@*                 
                    %/@  *#             ##(           ,(.. *@*,                  
@@ -38,7 +38,7 @@ print("""
                                                                                 
                                                                                 
 
-By: Daniel Saputra
+By: 𝔇𝔦𝔳𝔬 𝔖𝔞𝔭𝔲𝔱𝔯𝔞
 
 """)
 
@@ -53,7 +53,8 @@ while trying <= max_Try:
     trying += 1
     if userInput == realNumber:
         print("Benar!")
+        break
     elif trying > max_Try:
         print(f"Anda sudah mencapai batas, angka yang benar adalah {realNumber}")
     else:
-        print("Program Selesai")
+        print("Salah!")
