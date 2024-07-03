@@ -38,7 +38,7 @@ print("""
                                                                                 
                                                                                 
 
-By: Divo Saputra
+By: Daniel Saputra
 
 """)
 
