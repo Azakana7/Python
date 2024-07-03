@@ -57,33 +57,3 @@ while trying <= max_Try:
         print(f"Anda sudah mencapai batas, angka yang benar adalah {realNumber}")
     else:
         print("Program Selesai")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# if userInput == realNumber:
-#     print("Benar!")
-#     break
-# elif userInput != realNumber:
-#     while userInput != realNumber:
-#         print("Salah!")
-#         userInput = int(input("Masukkan sekali lagi: "))
-#         trying += 1
-#         if trying == max_Try:
-#             print("Maaf anda gagal")
-#     print("Benar!")
