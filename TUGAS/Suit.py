@@ -34,7 +34,7 @@ print("""
 
 def mainProgram():
     alat_Main = ["Batu", "Gunting", "Kertas"]
-    Computer = alat_Main[2]
+    Computer = random.sample(alat_Main, 1)[0]
     userInput = ""
 
 
