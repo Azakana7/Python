@@ -25,7 +25,7 @@ while Command != "exit":
         print(a * b)
         break
     elif Command == ":":
-        print(a / b)
+        print(a // b)
         break
 
 print("Terima kasih sudah memakai aplikasi saya!")
