@@ -45,11 +45,11 @@ By: 𝔇𝔦𝔳𝔬 𝔖𝔞𝔭𝔲𝔱𝔯𝔞
 
 trying = 0
 max_Try = 3
-realNumber = random.randint(1,3)
+realNumber = random.randint(1,10)
 
 #userInput = int(input("Masukkan angka dari (1-9) : "))
 while trying <= max_Try:
-    userInput = int(input("Masukkan angka dari (1-9) : "))
+    userInput = int(input("Masukkan angka dari (1-10) : "))
     trying += 1
     if userInput == realNumber:
         print("Benar!")

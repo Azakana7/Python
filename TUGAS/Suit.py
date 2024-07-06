@@ -1,7 +1,8 @@
 import random
+from colorama import Fore, Back, Style
 #! PROGRAM BATU GUNTING KERTAS SEDERHANA WIRR
 
-print("""
+text = ("""
 
 
 
@@ -31,6 +32,14 @@ print("""
       4. Exit
 
 """)
+print(text)
+
+half_index = len(text) // 2
+text_part1 = text[:half_index]
+text_part2 = text[half_index:]
+
+# Mewarnai bagian pertama dengan warna merah dan bagian kedua dengan warna default
+print(Fore.RED + text_part1 + Fore.WHITE + text_part2 + Style.RESET_ALL)
 
 def mainProgram():
     alat_Main = ["Batu", "Gunting", "Kertas"]
