@@ -3,27 +3,6 @@ from colorama import Fore, Back, Style
 #! PROGRAM BATU GUNTING KERTAS SEDERHANA WIRR
 
 text = ("""
-
-
-
-                                    @@@@@@@@@                                   
-                               @@@@@@@@@@@@@@@@@@@(                             
-               %%&&&@       ,@@@@@@@@@@@@@@@@@@@@@@@        &&&&@@              
-                %%&&&&@     @@@@@@@@@@@@@@@@@@@@@@@@@     &&&&&&&               
-             .#&&&&&&&&&&. .&@@@@@@@@@@@@@@@@@@@@@@@@...@&&&&&&&&&%             
-             #########&&&&&#&&@@@@@@@@@@&@@@@@@@@@@@@@#%&&%%###%%%%             
-                        ##&#%&&@@@@&%%%%&@@%%@@@@@@@@%###                       
-                            %@         @@@%       (@%                           
-                            /@%,     *@* (&%,     (@@                           
-                            @@@@&#&&&@@   @@@&&@@@@@@@                          
-                             (&&&&&@@@     @@@&&&&&&                            
-                @@@,    @@@&&#%   @@@@@@@@@@@@@  .%%&&&&@    #@@@               
-             %@&&&&&&&&&&&&&%#%%(( @,@,#&,@,@ , #@%%&&&&&&&&&&&&&&&             
-              ###&&&&&&&%###  %&&&@@         @@@@@(  #%&&&&&&&&&%%              
-                 #%%&%##        %&@@@@&@@@@@@@@@@       #%&&&%%                 
-                                  #%&@@@@@@@@%                                  
-                                      ..... 
-                    By:𝕮𝖞𝖇𝖊𝖗𝕭𝖔𝖞𝖘
       
       List:
       1. Batu
@@ -34,12 +13,12 @@ text = ("""
 """)
 print(text)
 
-half_index = len(text) // 2
-text_part1 = text[:half_index]
-text_part2 = text[half_index:]
+# half_index = len(text) // 2
+# text_part1 = text[:half_index]
+# text_part2 = text[half_index:]
 
 # Mewarnai bagian pertama dengan warna merah dan bagian kedua dengan warna default
-print(Fore.RED + text_part1 + Fore.WHITE + text_part2 + Style.RESET_ALL)
+#print(Fore.RED + text_part1 + Fore.WHITE + text_part2 + Style.RESET_ALL)
 
 def mainProgram():
     alat_Main = ["Batu", "Gunting", "Kertas"]
