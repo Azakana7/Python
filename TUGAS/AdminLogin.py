@@ -3,7 +3,7 @@ from time import sleep
 
 user = input("Siapakah Nama Anda: ")
 userInputName = user
-sleep(0.5)
+sleep(1)
 user_Passwd = input("Masukkan Kata Sandi Anda: ")
 user_Input_Passwd = user_Passwd
 
@@ -38,4 +38,4 @@ while Admin_Account:
     elif askUser == "N" or askUser == "n":
         break
 
-print("Program Selesai")
+print("Selesai")
