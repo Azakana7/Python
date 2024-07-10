@@ -15,7 +15,7 @@ Admin_Account = {
 }
 
 if userInputName == Admin_Account["Username"] and user_Input_Passwd == Admin_Account["adminTruePasswd"]:
-    print("Selamat datang di akun anda, Admin!")
+    print("Selamat datang di akun Admin!")
 else:
     print("Login Gagal!")
 
