@@ -66,30 +66,5 @@ def mainProgram():
     print("\nTerima kasih telah memainkan Game Saya!")
 
 
-
-    
-
 mainProgram()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-# if userInput == "4":
-#         break
-
-#     while userInput != "1" and userInput != "2" and userInput != "3" :
-#         print("Invalid!")
-#         continue
-
-#     if userInput == "1" and Computer == alat_Main[1]:
-#         print("Anda menang!")
