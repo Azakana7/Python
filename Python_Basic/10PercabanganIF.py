@@ -54,15 +54,15 @@ def cuaca():
     Cuaca = input('Cuaca Apa Hari Ini King: ')
     
     #! If Else Sederhana Untuk Menanyakan Cuaca
-    if Cuaca == 'Cerah':
+    if Cuaca == '1':
         print('Sungguh Hari Yang Indah!')
 
-    elif Cuaca == 'Gelap':
+    elif Cuaca == '2':
         print('Langitnya ireng loh ya!')
 
-    elif Cuaca == 'Panas':
+    elif Cuaca == '3':
         print("Puanase cikkkkk!")
 
-    elif Cuaca == 'Dingin':
+    elif Cuaca == '4':
         print("Thomas Slebew Abies")
 cuaca()
