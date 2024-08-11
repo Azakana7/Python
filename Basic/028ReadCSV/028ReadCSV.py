@@ -1,5 +1,9 @@
-
+import csv
 #! Durasi: 03:35:50
-user = open("" "r")
+users = open("Data.CSV" "r")
 
-print(user)
+users_CSV = csv.reader(users,delimiter=",") #! Artinya tiap kolom dipisahkan dengan koma
+
+users.close() 
+
+print(users)
