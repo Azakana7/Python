@@ -1,7 +1,7 @@
 
 #! DURASI KE: 03:29:57 (Cara menulis file)
 
-user = open("Python_Basic/027Data_Read/insert2.txt", "r+") 
+user = open("Basic/027Data_Read/insert2.txt", "r+") 
 user.write("Woi - wireng")
 user.write("\nWoi - ijooo")
 print(user)

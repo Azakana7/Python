@@ -1,0 +1,3 @@
+#! Durasi: 03:48:26
+
+kalo mau sebuah folder dianggap package maka harus ada file: __init__.py
